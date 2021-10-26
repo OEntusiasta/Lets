@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tivo SaaS</title>
+        <link rel="icon" href="./imagens/favicon.png" type="image/icone">
+        <link type="text/css" rel="stylesheet" href="./pg_inicial_css">
+    </head>
+
+    <body>
+        <section>
+        <nav>
+            <div id="nav" class="nav">
+                <div class="logo-desktop">
+                    <img src="imagens/logo.svg" alt="Tivo">
+                </div>
+   
+                <ul class="items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    </ul>
+                    <ul class="dropdown">
+                        <button class="dropbtn">Drop</button>
+                        <div class="dropdown-content">
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Log In</a></li>
+                            <li><a href="#">Article Details</a></li>
+                            <li><a href="#">Terms Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </div>
+                    </ul>
+                    <span class="button">
+                        <a href="#" class="signup-button">Sign Up</a>
+                    </span>
+                </div>
+    
+            </nav>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="initial-content">
+                    <div class="initial-content-text">
+                        <h1>Saas App Web HTML Template</h1>
+                        <p>Use Tivo to automate your marketing actions in order to reach a much larger audience in your
+                            field of work</p>
+                        <div class="initial-content-btn">
+                            <a href="#" class="discover">Discover</a>
+                            <a href="#" class="signup">Sign Up</a>
+                        </div>
+                    </div>
+
+                    <div class="img-conteiner">
+                            <img class="img-header" src="./imagens/header.svg" alt="alternative"  height = 550px width = 700>
+                        </div>
+                    </div>
+            </div>
+            </section>
+            
+            <section>
+                <div class="slider-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="slider-container">
+                                    <div class="swiper-container image-slider">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <img class="img-fluid" src="imagens/customer-logo-1.png"alternative">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img class="img-fluid" src="imagens/customer-logo-2.png" alt="alternative">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img class="img-fluid" src="imagens/customer-logo-3.png" alt="alternative">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img class="img-fluid" src="imagens/customer-logo-4.png" alt="alternative">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img class="img-fluid" src="imagens/customer-logo-5.png" alt="alternative">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img class="img-fluid" src="imagens/customer-logo-6.png" alt="alternative">
+                                            </div>
+                                        </div> 
+                                    </div> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </section>
+
+            <section>
+                <div class="description-area">
+                    <div class="description">
+                        <div class="description-title">
+                            <h4>Description</h4>
+                        </div>
+                        <div class="description-text">
+                            <h2>Marketing Automation Will Bring A Lot More Qualified Leads</h2>
+                        </div>
+                    </div>
+                
+    </body>
+
+</html>
