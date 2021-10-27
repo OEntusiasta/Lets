@@ -14,9 +14,6 @@
   
 }
 
-nav ul, nav ul li {
-  margin-right: 20px;
-}
 
 .logo-desktop {
   padding: 15px;
@@ -34,7 +31,7 @@ nav ul, nav ul li {
 
 .logo-desktop img {
   width: 80px;
-  margin-right: 20px;
+  margin-right: -20px;
 }
 
 
@@ -50,6 +47,7 @@ a{
   width: 50%;
   float: right;
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   list-style: none;
 }
@@ -63,12 +61,15 @@ a{
     border: none;
     cursor: pointer;
     
+    
   }
   
   .dropdown {
+    
     position: relative;
     display: inline-block;
     list-style: none;
+
   }
   
   .dropdown-content {
@@ -77,6 +78,8 @@ a{
     background-color: #9334ec;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    
 
   }
   
@@ -84,7 +87,10 @@ a{
     color: white;
     padding: 12px 16px;
     text-decoration: none;
+    position: relative;
     display: block;
+
+    
   }
   
   .dropdown-content a:hover {background-color: #8124D8;}
@@ -107,6 +113,7 @@ a{
   
 } 
 .signup-button{
+    align-items: center;
     padding: 12px 16px;
     border: 1px solid #fff;
     border-radius: 16px;
@@ -122,8 +129,8 @@ a{
 
 .container {
   display: grid;
-  padding-top: 80px;
-  /*border: 1px solid #000;*/
+  padding-top: 65px;
+  
 }
 
 .initial-content {
@@ -180,9 +187,14 @@ a{
 }
 
 .img-conteiner {
+  float: right;
+  margin-top: 140px;
   justify-content: end;
+  margin-right: -59px;
   grid-column-start: 6;
   grid-column-end: 12;
+  height : 550px;
+  width : 700px;
   transform: rotate(2deg);
   filter: drop-shadow(0px 30px 20px rgba(0, 0, 0, 0.2));
 
@@ -205,7 +217,7 @@ a{
 .description-area {
   display: grid;
   justify-content: center;
-  margin: 30px 100px;
+  margin: 125px 100px;
   /*border: 1px solid #000; */
 }
 
@@ -215,12 +227,245 @@ a{
 }
 
 .description-text h2{
-  margin: 5px 100px 50px;
+  margin: 5px 100px -50px;
   font-weight: 700;
   font-size: 2.125rem;
   line-height: 2.625rem;
   letter-spacing: -0.2px;
-
   color: #2f363b;
   text-align: center;
 }
+
+.feature-text{
+  margin: 5px 100px 50px;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 2.625rem;
+  letter-spacing: -0.2px;
+
+  color : #6b747b;
+  text-align: center;
+}
+
+
+
+.marketing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 50px;
+  /*border: 1px solid #000; */
+}
+
+.list-builder, .campaign-tracker, .analytics-tool {
+  display: grid;
+}
+
+.marketing-img, .marketing-title, .marketing-description {
+  display: flex;
+  justify-content: center;
+}
+
+.img-marketing-description {
+  max-width: 200px;
+  height: 200px;
+}
+
+.marketing-title {
+  font-weight: bold;
+  color: #2f363b;
+  margin-bottom: 15px;
+}
+
+.marketing-description {
+  color: #6b747b;
+  text-align: center;
+  margin: 0px 35px;
+}
+
+.container2 {
+  display: grid;
+  padding-top: 65px;
+  background-color: #f5f6fb;
+  
+}
+
+
+
+.building-title h3{
+  margin-left: 600px;
+  margin-bottom: 20px;;
+  font-size: 1.725rem;
+  line-height: 2.625rem;
+  letter-spacing: -0.2px;
+  color: #2f363b;
+  text-align: center;
+
+}
+.building-title p{
+  margin-left: 710px;
+  margin-right: 50px;
+  color: #6b747b;
+  font-weight: left;
+  font-size: 1400 1rem/1.625rem;
+  grid-column-start: 8;
+  grid-column-end: 12;
+  text-align: left;
+}
+.img-conteiner2{
+  float: left;
+  margin-top: -150px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+ 
+  height : 400px;
+  width : 550px;
+  filter: drop-shadow(0px 30px 20px rgba(0, 0, 0, 0.2));
+}
+.items-building{
+  color: #6b747b;
+  margin-left: 710px;
+  margin-right: 50px;
+  margin-top: -320px;
+  font-weight: left;
+  display: inline-block;
+
+  align-items: left;
+  list-style: none;
+  
+}
+.items-building ul{
+  list-style: none;
+}
+.items-building li::before {
+  content: "• ";
+  color: #8124D8 /* or whatever color you prefer */
+}
+  
+
+
+.middle-content-btn{
+    margin-left: 710px;
+    margin-right: 50px;
+    margin-top: -200px;
+}
+
+.signup2{
+  display: inline-block;
+    padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+    border: 1px solid #9334ec;
+    border-radius: 32px;
+    background-color: #9334ec;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+  
+}
+
+.signup2:hover {
+  color: #8124D8;
+  background-color: #fff;
+}
+
+/*icones meio*/
+
+.icons-middle{
+  display: flex;
+  justify-content: center;
+  margin: 0px 15px;
+  padding: 0px 15px;
+  float: left;
+
+}
+/*icones final*/
+
+.icons-bottom{
+  align-items: center;
+}
+
+.fa{
+  padding: 20px;
+  width: 20px;
+  float: center;
+  margin-top: 90px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 50px ;
+}
+
+
+.fa-facebook {
+  background:#8124D8;
+  color: white;
+}
+
+.fa-twitter {
+  background: #8124D8;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #8124D8;
+  color: white;
+}
+
+.fa-linkedin{
+  background: #8124D8;
+  color: white;
+}
+
+.fa-instagram {
+  background: #8124D8;
+  color: white;
+
+}
+
+.fa:hover{
+  background-color: #9334ec;
+  color: #fff;
+}
+
+/* footer */
+
+.content-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  background-color: #8124D8;
+}
+
+.about-cedo, .links, .contact {
+  color: white;
+  flex-direction: column;
+  display: flex;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  justify-content: center;
+  padding: 75px 30px;
+}
+
+
+.footer-title {
+  padding: 0px 25px 0px;
+  color: #e2e1e8;
+  height: 35px;
+}
+
+.footer-description {
+  font-size: 15px;
+  line-height: 25px;
+  padding: 0px 25px;
+  color: #e2e1e8;
+}
+
+.copyright {
+  background-color : #8124D8;
+  text-align: center;
+  color: #e2e1e8;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
