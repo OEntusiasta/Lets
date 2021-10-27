@@ -193,35 +193,25 @@
             </section>
 
             <section>
-                <div class="container2">
-                    <div class="description-area">
-                        <div class="description">
-                            <div class="description-title">
-                                <h4>FEATURES</h4>
-                            </div>
-                            <div class="feature-text">
-                                <p>Take your business strategy to the next level and automatize your marketing tasks to save time for product development. Tivo can provide results in less than 2 weeks</p>
-                            </div>
-                        </div>
-                    </div>
-           
-                 <div class="building-title">
-                    <h3>List Building Is Easier Than Ever</h3>
-                    <p>  It's very easy to start using Tivo. You just need to fill out and submit the Sign Up Form and you will receive access to the app and all of its features in no more than 24h. Use tutorials for learning faster</p>
+                <div class="container3">
+                 
+                 <div class="solution-title">
+                    <h3>Upgrade Your Marketing <br>Solution Without Delay</h3>
+                    <p>Target the right customers for your business with the help of <br> Tivo's patented segmentation technology and deploy efficiently.</p>
                 </div>
-                <div class="img-conteiner2">
-                    <img class="img-header" src="./imagens/feature-app-1.svg" alt="alternative" >
+                <div class="img-conteiner3">
+                    <img class="img-header" src="./imagens/details.svg" alt="alternative" >
                  </div>
-                 <div class="items-building">
+                 <div class="items-solution">
                     <ul>
-                        <li>Create and embed on websites functional newsletter forms</li><br>
-                        <li>Manage forms and landing pages for your online services</li><br>
-                        <li>Add and remove any subscribers using the control panel</li><br>
+                        <li>Keep your customers happy and loyal based on technology</li><br>
+                        <li>Understand customers and meet their requirements</li><br>
+                        <li>Targeted client base with Tivo's efficient technology</li><br>
                       </ul>
                 </div>
 
                 <div class="middle-content-btn">
-                    <a href="#" class="signup2">Sign Up</a>
+                    <a href="#" class="signup3">Light Box</a>
                 </div>
 
         </div>
