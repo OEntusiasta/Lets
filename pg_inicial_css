@@ -146,7 +146,7 @@ a{
 .initial-content-text {
   grid-column-start: 1;
   grid-column-end: 6;
-  align-self: center;
+
   /*border: 1px solid #000;*/
 }
 
@@ -475,62 +475,13 @@ a{
 
 /*icones meio*/
 
-.icons-middle{
-  display: flex;
-  justify-content: center;
-  margin: 0px 15px;
-  padding: 0px 15px;
-  float: left;
 
-}
 /*icones final*/
 
 .icons-bottom{
   align-items: center;
 }
 
-.fa{
-  padding: 20px;
-  width: 20px;
-  float: center;
-  margin-top: 90px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin: 50px ;
-}
-
-
-.fa-facebook {
-  background:#8124D8;
-  color: white;
-}
-
-.fa-twitter {
-  background: #8124D8;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #8124D8;
-  color: white;
-}
-
-.fa-linkedin{
-  background: #8124D8;
-  color: white;
-}
-
-.fa-instagram {
-  background: #8124D8;
-  color: white;
-
-}
-
-.fa:hover{
-  background-color: #9334ec;
-  color: #fff;
-}
 
 /* footer */
 
@@ -573,3 +524,225 @@ a{
   font-size: 15px;
 }
 
+
+/*  1200px */
+
+@media only screen and (max-width: 1200px) {
+
+
+
+  .initial-content-text p {
+      color: #fff;
+      padding: 0px 75px;
+      font-size: 23px;
+      text-align: start;
+
+      filter: drop-shadow(0px 30px 20px rgba(0, 0, 0, 0.2));
+  }
+
+  .greenapp {
+      display: none;
+  }
+
+  .description-text {
+      margin: 5px 70px 50px;
+      font-size: 32px;
+      text-align: center;
+  }
+
+  .swiper-slide{
+    margin: 10px 13px;
+    padding: 0px 10px;
+    align-items: center;
+    
+  }
+
+}
+
+/*800px  */
+
+@media only screen and (max-width: 800px) {
+    
+  .nav ul, .nav ul li {
+      margin-right: 0px;
+  }
+
+  .nav ul li a {
+      margin-right: 20px;
+  }
+
+  .initial-content-text {
+      grid-column-end: 12;
+      text-align: center;
+      padding-top: 100px;
+  }
+  .initial-content-img {
+      grid-column-start: 1;
+      padding: 0px 75px;
+      /*border: 1px solid #000; */
+  }
+  
+
+
+  .btn-slides {
+      padding-top: 50px;
+  }
+  
+  .swiper-slide{
+    margin: 0px 70px;
+   
+    padding: 20px 40px;
+    align-items: center;
+    
+  }
+
+  .primester, .upstart {
+      display: none;
+  }
+
+  .description-title h4 {
+      font-size: 28px;
+  }
+
+  .description-text {
+      margin: 5px 70px 50px;
+      text-align: center;
+      
+  }
+
+  .feature-text {
+    
+    margin: 5px 0px 50px -450px;
+    margin-left: 2%;
+    margin-right: 50%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 20%;
+  
+
+}
+
+  .container2 .description-title h4{
+    margin: 5px 0px 50px -450px;
+    font-size: 28px;
+    margin-left: 10%;
+    margin-right: 20%;
+
+  }
+
+  .initial-content-text p {
+      text-align: center;
+  }
+
+  .initial-content-btn {
+      justify-content: center;
+  }
+
+  .marketing {
+      flex-direction: column;
+      display: flex;
+  }
+
+  .content-footer {
+      display: block;
+      /* grid-template-columns: 1fr 1fr 1fr;
+      background-color: #66f; */
+  }
+
+  .about-cedo, .links, .contact {
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      padding: 40px 30px;
+  }
+
+  .copyright {
+      padding-bottom: 20px;
+  }
+
+  .building-title h3{
+    margin: 5px 0px 50px -250px;
+    font-size: 28px;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-align: center;
+  
+  }
+  
+  .building-title p{
+    margin: 5px 0px 50px -250px;
+    margin-left: 15%;
+    margin-right: 20%;
+
+    text-align: center;
+   
+  }
+   
+
+  
+  .items-building{
+    margin: 5px 0px 50px -250px;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-align: center;
+    
+  }
+  .img-conteiner2{
+      grid-column-start: 1;
+      margin: 5px 0px 0px 50px;
+      padding: 50px 75px;
+  }
+  
+  .signup2{
+    margin: -25px 0px 50px -450px;
+    margin-left: 15%;
+    margin-right: 45%;
+    
+  }
+  
+  .solution-title h3{
+     margin: 5px 0px 50px -450px;
+    font-size: 28px;
+    margin-left: 15%;
+    margin-right: 20%;
+  
+  }
+
+  
+  .solution-title p{
+   margin: 5px 0px 50px -250px;
+   margin-left: 15%;
+    margin-right: 20%;
+
+    text-align: center;
+  }
+  
+  .img-conteiner3{
+    grid-column-start: 1;
+    margin: 5px 0px 0px 50px;
+    padding: 50px 75px;
+  }
+  
+  .items-solution{
+    margin: 5px 0px 50px -250px;
+    margin-left: 15%;
+    margin-right: 20%;
+    text-align: center;
+    
+    
+  }
+
+  
+  .signup3{
+     margin: -25px 0px 50px -450px;
+    margin-left: 40%;
+    margin-right: 25%;
+    
+    
+  }
+  
+  
+
+
+
+}
