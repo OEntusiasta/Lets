@@ -17,6 +17,7 @@
   width: 100%;
   z-index: 1;
   
+  
 }
 
 
@@ -59,23 +60,12 @@ a{
   list-style: none;
   
 }
-.items-mobile{
-  width: 2%;
-  float: right;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  list-style: none;
+.items-mobile {
+  display: none;
   
 }
 
 
-.items-mobile{ 
-  display: none;
-}
-.menu{
-  display: none;
-}
 .dropbtn {
     background-color: #8124D8;
     color: white;
@@ -717,9 +707,6 @@ img {
 /*  1200px */
 
 @media only screen and (max-width: 1200px) {
-  .btn-menu{
-    display: none;
-  }
 
 
   .initial-content-text p {
@@ -785,9 +772,7 @@ img {
 /*800px  */
 
 @media only screen and (max-width: 800px) {
-  .btn-menu{
-    display: none;
-  }
+
   .nav ul, .nav ul li {
       margin-right: 0px;
   }
@@ -1006,53 +991,14 @@ img {
 
 
 
-.items{
- 
-  display: none;
-
-  
-}
-
-
-#nav.active .items-mobile {
-  display: block;
-}
-
-
-/*
-.items-mobile {
-  display: none;
-  position: absolute;
-  width: 10px;
-  height: 10px;;
-  top: 45px;
-  right: 0px;
-  color: #000;
-  background-color: #66f;
-  z-index: 1;
-}
-*/
-.items-mobile li {
-  padding: 15px;
-  border-bottom: 1px solid #ccc;
-}
-
 .dropbtn {
   display: inline-block;
 
   justify-content: flex-end;
-    
-    
-  }
-  .menu {
-    position: fixed;
-    display: block;
-    right: 10px;
-    top: 0px;
-    background-color: #66f;
 }
+    
 
-  
+
 
 .button {
   display: inline-block;
@@ -1066,9 +1012,6 @@ img {
     /*border: 1px solid #000; */
 }
 
-  #nav.active .items-mobile {
-      display: block;
-  }
 
 
 

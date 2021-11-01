@@ -17,8 +17,6 @@
                 <div class="logo-desktop">
                     <img src="imagens/logo.svg" alt="Tivo">
                 </div>
-                <button id="btn-menu" class="btn-menu" onclick="Menu()"><img class="menu"
-                    src="./imagens/3329671.png" /></button>
 
                 <div class="items">
                     <li><a href="#">Home</a></li>
