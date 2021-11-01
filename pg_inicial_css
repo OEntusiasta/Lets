@@ -60,23 +60,20 @@ a{
   list-style: none;
   
 }
-.items-mobile {
-  display: none;
-  
-}
+
 
 
 .dropbtn {
-    background-color: #8124D8;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    
-    
-  }
+  background-color: #8124D8;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
   
+  
+}
+
   .dropdown {
     
     position: relative;
@@ -999,6 +996,11 @@ img {
     
 
 
+.items-building{
+  display:none;
+
+}
+
 
 .button {
   display: inline-block;
@@ -1214,6 +1216,8 @@ img {
 
   align-items: center;
 }
+
+
 
 
 }
