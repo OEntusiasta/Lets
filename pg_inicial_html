@@ -39,7 +39,32 @@
                     </span>
                 </div>
 
+                <label class="menu-label" for ="chec">
+                    <img class= "menu-side"src="./imagens/unknown.png">
+                </label>
+                <input type="checkbox"  id ="chec">
+                <div class="nav-mobile">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a id="contact-modal" onclick="openModal()">Contact</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Drop</button>
+                        <div class="dropdown-content">
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Log In</a></li>
+                            <li><a href="#">Article Details</a></li>
+                            <li><a href="#">Terms Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </div>
+                    </div>
+                    <span class="button">
+                        <a href="#" class="signup-button">Log Up</a>
+                    </span>
                 </div>
+
+          
 
 
         </nav>

@@ -19,7 +19,17 @@
   
   
 }
+.menu-side{
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
 
+.nav-mobile {
+ display: none;
+  
+}
 
 .logo-desktop {
   padding: 15px;
@@ -986,6 +996,11 @@ img {
       /* border: 1px solid #000; */
   }
 
+.menu-side{
+  display: flex;
+  width: 40px;
+  margin-right: 20px;
+}
 
 
 .dropbtn {
@@ -1015,8 +1030,21 @@ img {
 }
 
 
+.nav-mobile{
+  transform: translateX(125%);
+  right: 50px;
+  top: 50px;
+
+  display: grid;
+  padding: 20px;
+  position: absolute;
+  list-style: none;
 
 
+}
+#chec:checked ~ .nav-mobile{
+  transform: translateX(0%);
+}
   .btn-slides {
       border: none;
       cursor: pointer;
@@ -1217,6 +1245,9 @@ img {
   align-items: center;
 }
 
+.items{
+  display: none;
+}
 
 
 
