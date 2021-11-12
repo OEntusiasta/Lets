@@ -44,14 +44,14 @@ input[type="checkbox"]{
 }
 
 .logo-desktop a {
-  font-size: 30px;
+  font-size: 30vw;
   font-weight: bold;
   color: #8124D8;
 }
 
 .logo-desktop img {
   width: 80px;
-  margin-right: -20px;
+  margin-right: -20vh;
 }
 
 
@@ -59,7 +59,7 @@ input[type="checkbox"]{
 a{
     color: white;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 1.175rem;
     
     
 }
@@ -81,7 +81,7 @@ a{
   background-color: #8124D8;
   color: white;
   padding: 10px;
-  font-size: 16px;
+  font-size: 1.175rem;
   border: none;
   cursor: pointer;
   
@@ -100,7 +100,7 @@ a{
     display: none;
     position: absolute;
     background-color: #9334ec;
-    min-width: 160px;
+
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
     
@@ -141,7 +141,7 @@ a{
     padding: 12px 16px;
     border: 1px solid #fff;
     border-radius: 16px;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .signup-button:hover { 
@@ -153,7 +153,7 @@ a{
 
 .container {
   display: grid;
-  padding-top: 65px;
+  padding-top: 7vh;
   
 }
 
@@ -164,7 +164,7 @@ a{
 }
 
 .initial-content-text {
-  margin-top: 100px;
+  margin-top: 30vh;
   grid-column-start: 1;
   grid-column-end: 6;
 
@@ -174,7 +174,7 @@ a{
 .initial-content-btn {
   display: flex;
   justify-content: start;
-  margin-top: 20px;
+  margin-top: 3vh;
 
   padding: 0px 75px;
 }
@@ -183,8 +183,8 @@ a{
   padding: 15px;
   margin: 10px 20px 10px 0px;
   border: 1px solid #fff;
-  border-radius: 20px;
-  font-size: 18px;
+  border-radius: 50px;
+  font-size: 1rem;
 }
 
 
@@ -201,24 +201,24 @@ a{
 .initial-content-text h1 {
   align-content: center;
   justify-content: space-evenly;
-  font-size: 52px;
+  font-size: 3.5rem;
   color: #fff;
   padding: 0px 75px;
 }
 
 .initial-content-text p {
-  margin-top: 50px;
+  margin-top: 4vh;
   color: #fff;
   padding: 0px 75px;
-  font-size: 17px;
+  font-size: 1.125rem;
   text-align: left;
 }
 
 .img-conteiner {
   float: right;
-  margin-top: 140px;
+  margin-top: 12vh;
   justify-content: end;
-  margin-right: 10px;
+  margin-right: -5vh;
   grid-column-start: 6;
   grid-column-end: 12;
   height : 550px;
@@ -233,7 +233,7 @@ a{
 
   width: 10%;
   display: flex;
-  margin: 20px 20px -50px 20px;
+  margin: 8vh 2vh -7vh 2vh;
   padding: 1em 3px 30px 5px;
   align-items: center;
   float: left;
@@ -246,7 +246,7 @@ a{
 .description-area {
   display: grid;
   justify-content: center;
-  margin: 125px 100px;
+  margin: 15vh 42vh;
   /*border: 1px solid #000; */
 }
 
@@ -265,11 +265,13 @@ a{
   text-align: center;
 }
 
+
+
 .feature-text{
-  margin: 5px 100px 50px;
+  margin: 8vh 2vh 5vh 2vh;
   font-weight: 500;
   font-size: 1.125rem;
-  line-height: 2.625rem;
+  line-height: 2.5rem;
   letter-spacing: -0.2px;
 
   color : #6b747b;
@@ -322,7 +324,7 @@ a{
 
 
 .building-title h3{
-  margin-left: 600px;
+  margin-left: 77vh;
   margin-bottom: 20px;;
   font-size: 1.725rem;
   line-height: 2.625rem;
@@ -332,8 +334,8 @@ a{
 
 }
 .building-title p{
-  margin-left: 710px;
-  margin-right: 50px;
+  margin-left: 105vh;
+  margin-right: 15vh;
   color: #6b747b;
   font-weight: left;
   font-size: 1400 1rem/1.625rem;
@@ -353,9 +355,9 @@ a{
 }
 .items-building{
   color: #6b747b;
-  margin-left: 710px;
-  margin-right: 50px;
-  margin-top: -320px;
+  margin-left: 105vh;
+  margin-right: 15vh;
+  margin-top: -48vh;
   font-weight: left;
   display: inline-block;
 
@@ -377,7 +379,7 @@ a{
     text-decoration: none;
     transition: all 0.2s;
     float: right;
-    margin-left: 710px;
+    margin-left:  95vh;
     margin-right:  450px;
     margin-top: -200px;
 
@@ -436,7 +438,7 @@ a{
 
 .img-conteiner3{
   float:  left;
-  margin-left : 650px;
+  margin-left : 700px;
   margin-bottom: 200px;
   margin-top: -200px;
   height : 400px;
