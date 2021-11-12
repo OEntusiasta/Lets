@@ -21,7 +21,6 @@ body {
   width: 100%;
   z-index: 1;
   
-  
 }
 .menu-side{
   display: none;
@@ -44,14 +43,14 @@ input[type="checkbox"]{
 }
 
 .logo-desktop a {
-  font-size: 30vw;
+  font-size: 30px;
   font-weight: bold;
   color: #8124D8;
 }
 
 .logo-desktop img {
   width: 80px;
-  margin-right: -20vh;
+  margin-right: -20px;
 }
 
 
@@ -59,7 +58,7 @@ input[type="checkbox"]{
 a{
     color: white;
     text-decoration: none;
-    margin-right: 1.175rem;
+    margin-right: 20px;
     
     
 }
@@ -81,7 +80,7 @@ a{
   background-color: #8124D8;
   color: white;
   padding: 10px;
-  font-size: 1.175rem;
+  font-size: 16px;
   border: none;
   cursor: pointer;
   
@@ -100,7 +99,7 @@ a{
     display: none;
     position: absolute;
     background-color: #9334ec;
-
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     
     
@@ -141,7 +140,7 @@ a{
     padding: 12px 16px;
     border: 1px solid #fff;
     border-radius: 16px;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .signup-button:hover { 
@@ -153,7 +152,7 @@ a{
 
 .container {
   display: grid;
-  padding-top: 7vh;
+  padding-top: 65px;
   
 }
 
@@ -164,7 +163,7 @@ a{
 }
 
 .initial-content-text {
-  margin-top: 30vh;
+  margin-top: 100px;
   grid-column-start: 1;
   grid-column-end: 6;
 
@@ -174,7 +173,7 @@ a{
 .initial-content-btn {
   display: flex;
   justify-content: start;
-  margin-top: 3vh;
+  margin-top: 20px;
 
   padding: 0px 75px;
 }
@@ -183,8 +182,8 @@ a{
   padding: 15px;
   margin: 10px 20px 10px 0px;
   border: 1px solid #fff;
-  border-radius: 50px;
-  font-size: 1rem;
+  border-radius: 20px;
+  font-size: 18px;
 }
 
 
@@ -201,24 +200,24 @@ a{
 .initial-content-text h1 {
   align-content: center;
   justify-content: space-evenly;
-  font-size: 3.5rem;
+  font-size: 52px;
   color: #fff;
   padding: 0px 75px;
 }
 
 .initial-content-text p {
-  margin-top: 4vh;
+  margin-top: 50px;
   color: #fff;
   padding: 0px 75px;
-  font-size: 1.125rem;
+  font-size: 17px;
   text-align: left;
 }
 
 .img-conteiner {
   float: right;
-  margin-top: 12vh;
+  margin-top: 140px;
   justify-content: end;
-  margin-right: -5vh;
+  margin-right: 10px;
   grid-column-start: 6;
   grid-column-end: 12;
   height : 550px;
@@ -233,7 +232,7 @@ a{
 
   width: 10%;
   display: flex;
-  margin: 8vh 2vh -7vh 2vh;
+  margin: 20px 20px -50px 20px;
   padding: 1em 3px 30px 5px;
   align-items: center;
   float: left;
@@ -246,7 +245,7 @@ a{
 .description-area {
   display: grid;
   justify-content: center;
-  margin: 15vh 42vh;
+  margin: 125px 100px;
   /*border: 1px solid #000; */
 }
 
@@ -265,13 +264,11 @@ a{
   text-align: center;
 }
 
-
-
 .feature-text{
-  margin: 8vh 2vh 5vh 2vh;
+  margin: 5px 100px 50px;
   font-weight: 500;
   font-size: 1.125rem;
-  line-height: 2.5rem;
+  line-height: 2.625rem;
   letter-spacing: -0.2px;
 
   color : #6b747b;
@@ -324,7 +321,7 @@ a{
 
 
 .building-title h3{
-  margin-left: 77vh;
+  margin-left: 600px;
   margin-bottom: 20px;;
   font-size: 1.725rem;
   line-height: 2.625rem;
@@ -334,8 +331,8 @@ a{
 
 }
 .building-title p{
-  margin-left: 105vh;
-  margin-right: 15vh;
+  margin-left: 710px;
+  margin-right: 50px;
   color: #6b747b;
   font-weight: left;
   font-size: 1400 1rem/1.625rem;
@@ -355,9 +352,9 @@ a{
 }
 .items-building{
   color: #6b747b;
-  margin-left: 105vh;
-  margin-right: 15vh;
-  margin-top: -48vh;
+  margin-left: 710px;
+  margin-right: 50px;
+  margin-top: -320px;
   font-weight: left;
   display: inline-block;
 
@@ -379,7 +376,7 @@ a{
     text-decoration: none;
     transition: all 0.2s;
     float: right;
-    margin-left:  95vh;
+    margin-left: 710px;
     margin-right:  450px;
     margin-top: -200px;
 
@@ -438,7 +435,7 @@ a{
 
 .img-conteiner3{
   float:  left;
-  margin-left : 700px;
+  margin-left : 650px;
   margin-bottom: 200px;
   margin-top: -200px;
   height : 400px;
@@ -721,18 +718,8 @@ img {
 
 @media only screen and (max-width: 1200px) {
 
-.nav {
   
-  background-color: #8124D8;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  position: fixed;
-  width: 25%;
-  z-index: 1;
-  
-  
-}
+
 
   .initial-content-text p {
       color: #fff;
@@ -765,7 +752,7 @@ img {
     align-items: center;
   
   
-}
+  }
 
 
 .building-title h3{
@@ -800,19 +787,6 @@ img {
 
 @media only screen and (max-width: 800px) {
 
-
-.nav {
-  
-  background-color: #8124D8;
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  
-  
-}
   .nav ul, .nav ul li {
       margin-right: 0px;
   }
@@ -1023,15 +997,10 @@ img {
 /*400px */
 
 @media only screen and (max-width: 400px){
-  body {
-    overflow-x: hidden;
-  }
-  
 
   .nav {
-      padding-top: 10px;
-      width: 80%;
-      z-index: 1;
+      padding-top: 10px
+      /* border: 1px solid #000; */
   }
 
 .menu-side{
