@@ -1,4 +1,7 @@
 
+body {
+  overflow-x: hidden;
+}
 
 *  {
     margin: 0;
@@ -9,9 +12,10 @@
 
 
 .nav {
+  
   background-color: #8124D8;
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -214,7 +218,7 @@ a{
   float: right;
   margin-top: 140px;
   justify-content: end;
-  margin-right: -59px;
+  margin-right: 10px;
   grid-column-start: 6;
   grid-column-end: 12;
   height : 550px;
@@ -432,7 +436,7 @@ a{
 
 .img-conteiner3{
   float:  left;
-  margin-left : 700px;
+  margin-left : 650px;
   margin-bottom: 200px;
   margin-top: -200px;
   height : 400px;
@@ -715,6 +719,18 @@ img {
 
 @media only screen and (max-width: 1200px) {
 
+.nav {
+  
+  background-color: #8124D8;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: fixed;
+  width: 25%;
+  z-index: 1;
+  
+  
+}
 
   .initial-content-text p {
       color: #fff;
@@ -774,12 +790,27 @@ img {
   margin-right: 30%;
   
 }
+
+
 }
 
 /*800px  */
 
 @media only screen and (max-width: 800px) {
 
+
+.nav {
+  
+  background-color: #8124D8;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  
+  
+}
   .nav ul, .nav ul li {
       margin-right: 0px;
   }
@@ -990,10 +1021,15 @@ img {
 /*400px */
 
 @media only screen and (max-width: 400px){
+  body {
+    overflow-x: hidden;
+  }
+  
 
   .nav {
-      padding-top: 10px
-      /* border: 1px solid #000; */
+      padding-top: 10px;
+      width: 80%;
+      z-index: 1;
   }
 
 .menu-side{
